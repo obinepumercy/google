@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 2rem;
+}
+
+.main_container {
+    width: 100%;
+}
+
+/* Header styles */
+
+.header_container {
+    padding-bottom: 1px solid #ccc;
+}
+.top_content {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+#google_img {
+    width: 8rem;
+    padding-right: 2rem;
+}
+
+.search_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    border: 1px solid rgb(241, 236, 236);
+    box-shadow: 2px 4px rgb(241, 236, 236);
+    padding: 0.70rem 1rem;
+    border-radius: 50px;
+    margin-right: 15rem;
+    width: 70rem;
+}
+
+.search_content input {
+    border: none;
+    outline: none;
+}
+
+.icons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.fa-microphone, .fa-magnifying-glass, .fa-camera {
+    color: blue;
+}
+
+.icon-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    margin-right: 1rem;
+}
+
+#gear, #grid, #prof_pic {
+    border: none;
+    margin-left: 1rem;
+    background-color: white;
+}
+
+#prof_pic img {
+    border-radius: 50px;
+}
+
+.fa-gear, .fa-grip-vertical {
+    color: rgb(95, 94, 94);
+}
+
+/* bottom header css */
+
+.bottom_header {
+    display: flex;
+    margin-left: 11rem;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+
+.bottom_header a {
+    display: flex;
+    /* gap: 0.3rem; */
+}
+
+#tools {
+    border: none;
+    background-color: white;
+    margin-left: 14rem;
+}
+
+hr {
+    background-color: #ccc;
+}
